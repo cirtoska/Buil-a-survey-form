@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label id="name-label"
+        >Name
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </label>
+      <label id="email-label"
+        >Email
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+      </label>
+      <label id="number-label"
+        >Age (optional)
+        <input type="number" id="number" min="10" max="100" placeholder="Age" />
+      </label>
+      <label id="dropdown-label"
+        >Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">Select Current Role</option>
+          <option value="1">Student</option>
+          <option value="2">Full Time Job</option>
+          <option value="3">Other</option>
+        </select>
+      </label>
+      <fieldset>
+        Would you recommend freeCodeCamp to a friend?
+        <label id="radio-label"
+          ><input type="radio" name="recommend" value="radio" />
+          Definitely</label
+        >
+        <label id="radio-label"
+          ><input type="radio" name="recommend" value="radio" /> Maybe</label
+        >
+        <label id="radio-label"
+          ><input type="radio" name="recommend" value="radio" /> Not Sure</label
+        >
+      </fieldset>
+      <fieldset>
+        What would you like to see improved?
+        <span class="small">(Check all that apply)</span>
+        <label id="checkbox-label"
+          ><input type="checkbox" value="check" name="check" /> Front-end
+          Projects</label
+        >
+        <label id="checkbox-label"
+          ><input type="checkbox" value="check" name="check" /> Back-end
+          Projects</label
+        >
+        <label id="checkbox-label"
+          ><input type="checkbox" value="check" /> Data Visualization</label
+        >
+        <label id="checkbox-label"
+          ><input type="checkbox" value="check" name="check" />
+          Challenges</label
+        >
+        <label id="checkbox-label"
+          ><input type="checkbox" value="check" name="check" /> Open Source
+          Community</label
+        >
+      </fieldset>
+      <label id="textarea-label"
+        >Any comments or suggestions?
+        <textarea
+          name="comments"
+          placeholder="Enter your comment here..."
+        ></textarea>
+      </label>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>

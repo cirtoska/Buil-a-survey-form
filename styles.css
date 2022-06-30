@@ -1,0 +1,72 @@
+body {
+    margin: 2rem auto;
+    max-width: 500px;
+    background-color: #ffe6e6;
+    font-family: 'Tahoma';
+  }
+  
+  #title, #description {
+    text-align: center;
+    color: rgba(0, 0, 77, 0.8);
+  }
+  
+  #description {
+    font-style: italic;
+  }
+  
+  form {
+    background-color: rgba(0, 0, 77, 0.8);
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 1.1rem;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea, select,
+  button {
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 95%;
+  }
+  select {
+    width: 100%;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .small {
+    font-size: 0.8rem;
+    vertical-align: top;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+  }
